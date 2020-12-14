@@ -1,0 +1,48 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "title": "Eletrico"
+    },
+    {
+      "id": 2,
+      "title": "Fogo"
+    },
+    {
+      "id": 3,
+      "title": "Planta"
+    },
+    {
+      "id": 4,
+      "title": "Voador"
+    }
+  ],
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Bulbassauro",
+      "players": [{ "id": 3, "name": "Rodrigo", "last_name": "Galter" }],
+      "types": [3]
+    },
+    {
+      "id": 25,
+      "name": "Pikachu",
+      "players": [
+        { "id": 1, "name": "Pedro", "last_name": "Bezerra" },
+        { "id": 2, "name": "Adam", "last_name": "Warlock" }
+      ],
+      "types": [1]
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "players": [{ "id": 1, "name": "Rodrigo", "last_name": "Galter" }],
+      "types": [2, 4]
+    }
+  ],
+  "players": [
+    { "id": 1, "name": "Pedro", "last_name": "Bezerra", "is_active": true },
+    { "id": 2, "name": "Adam", "last_name": "Warlock", "is_active": false },
+    { "id": 3, "name": "Rodrigo", "last_name": "Galter", "is_active": true }
+  ]
+}
