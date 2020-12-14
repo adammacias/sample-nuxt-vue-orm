@@ -1,0 +1,29 @@
+{
+  "vetur.validation.template": false,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "eslint.lintTask.enable": true,
+  "git.ignoreLimitWarning": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "files.exclude": {
+    "**/.nuxt": true,
+    "**/coverage": false,
+    "**/__snapshots__": false
+  }
+}
