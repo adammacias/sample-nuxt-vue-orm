@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
+    "@vuex-orm/core": "^0.36.3",
+    "@vuex-orm/plugin-axios": "^0.9.3",
     "core-js": "^3.6.5",
     "json-server": "^0.16.3",
     "nuxt": "^2.14.6",
